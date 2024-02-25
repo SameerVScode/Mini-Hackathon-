@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.navbar-brand img {
+    width: 41px;
+}
+
+.dropdown a {
+    font-size: 18px;
+    color: #001c64 !important;
+    transition: all .3s ease !important;
+}
+.dropdown a:hover {
+    font-weight: 700;
+
+}
+.navbar-nav li {
+    margin-left: 15px;
+    
+}
+.navbar-nav li a ,.nav-link {
+    font-size: 18px;
+    color: #001c64 !important;
+}
+.Developer {
+    font-weight: 500 !important;
+
+}
+.Developer:hover {
+    color: rgba(0, 112 ,224) !important;
+
+
+}
+.nav-btn {
+    margin-left: 20px;
+    padding:10px 30px;
+    border: 2px solid #001c64;
+    border-radius: 25px;
+    font-size: 18px ;
+    font-weight: bold;
+    color: #001c64;
+}
+.nav-s-btn {
+background: #001c64;
+color: white;
+} 
+
+.nav-f-btn:hover {
+    border-color:  rgba(0, 112 ,224) !important;
+    color: rgba(0, 112 ,224) ;
+
+} 
+.nav-s-btn:hover {
+    background:  rgba(0, 112 ,224) !important;
+    border-color:  rgba(0, 112 ,224) !important;
+    color: white;
+} 
+
+
+.dropdown ul  {
+    width: 1200px;
+    border-radius: 20px;
+}
+.dropdown-menu li {
+    padding: 20px;
+    display: inline-block
+}
+
+
+
+
+.main {
+    height: auto;
+    background-position: bottom;
+    background-size: cover;
+   
+    
+}
+.main h2{
+    font-size: 100px;
+    width: 800px;
+    font-weight: 500;
+    color: white;
+
+}
+.main-left {
+    width: 130px;
+
+}
+.main-right {
+    width: 356px;
+    padding: 0px 12px 0px 32px ;
+}
+#numer {
+    width: 309px;
+    padding: 20px 12px 18px 35px !important;
+    margin: 10px 0;
+}
+.send-btn {
+    padding: 13px 24px;
+    border-radius: 30px;
+    background: #F9B822;
+    border: none;
+
+}
+.main-right-p {
+    font-weight: 400 !important;
+}
+
+.sign-up-section {
+    border-bottom: 1px solid lightgray !important;
+}
+
+.sign-up-section a {
+    text-decoration: none;
+    color: rgba(0, 112 ,224) !important ;
+    transition: all .3s ease;
+}
+.sign-up-section a:hover {
+    color: #001c64 !important;
+    font-weight: 500 !important;
+}
+
+
+.card-container {
+    max-width: 1200px;
+    margin-left:auto ;
+    margin-right:auto ;
+    padding: 50px;
+}
+.row-img img {
+    width: 512px;
+}
+.row-content {
+width: 524px;
+}
+.row-content h2 {
+    font-size: 48px;
+
+}
